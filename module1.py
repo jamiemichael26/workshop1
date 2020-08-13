@@ -11,6 +11,8 @@ def calc(operator,num1,num2):
         result = int(num1) * int(num2)
     elif operator == '/':
         result = int(num1) / int(num2)
+    elif operator == '^':
+        result = int(num1) ^ int(num2)
     else:
         result = 'Error'
     print (result)
